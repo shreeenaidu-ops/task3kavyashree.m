@@ -1,0 +1,5 @@
+RAG stands for Retrieval-Augmented Generation.
+RAG combines retrieval from a knowledge base with generation from a Large Language Model.
+First, the system retrieves relevant documents using embeddings and FAISS.
+Then, the LLM uses only those retrieved documents to generate a grounded answer.
+This reduces hallucination because the model does not invent facts.
