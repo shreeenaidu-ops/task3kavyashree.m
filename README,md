@@ -1,0 +1,12 @@
+# Task 3 - RAG Mini-App
+This project uses FAISS + Embeddings + LLM grounded answers.
+
+## How to run
+pip install -r requirements.txt
+streamlit run app.py
+
+## Files
+- app.py - Main code
+- requirements.txt - Libraries needed
+- NOTES.md - Test results
+- documents/ - Knowledge base files
