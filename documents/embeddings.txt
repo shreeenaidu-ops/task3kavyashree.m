@@ -1,0 +1,5 @@
+Embeddings are numerical representations of text.
+Similar meanings have similar vectors.
+An embedding model converts each document chunk into a vector.
+These vectors are stored in FAISS for fast search.
+When a user asks a question, its embedding is compared to stored vectors to find relevant chunks.
