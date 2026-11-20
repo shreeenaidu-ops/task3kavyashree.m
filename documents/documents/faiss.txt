@@ -1,5 +1,0 @@
-FAISS is Facebook AI Similarity Search.
-FAISS is a library for fast similarity search of dense vectors.
-It stores embeddings and finds the most similar documents quickly.
-In this project, FAISS stores embeddings of all text chunks.
-When a user asks a question, FAISS returns the top relevant chunks.
